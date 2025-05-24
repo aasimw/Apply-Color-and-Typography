@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>App Style Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1, h2 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .colors {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .color-box {
+      width: 120px;
+      height: 120px;
+      border-radius: 10px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .color-label {
+      font-size: 12px;
+    }
+
+    .typography-sample {
+      margin-bottom: 15px;
+    }
+
+    .title {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+    .subheading {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    .body-text {
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    .button-text {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .small-text {
+      font-size: 12px;
+      font-weight: 300;
+      color: #777;
+    }
+
+    .color-sky { background-color: #4A90E2; }
+    .color-gray-light { background-color: #F2F2F2; color: #000; }
+    .color-yellow { background-color: #FFC107; color: #000; }
+    .color-text { background-color: #333333; }
+    .color-subtext { background-color: #777777; }
+    .color-border { background-color: #E0E0E0; color: #000; }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <h1>Style Guide</h1>
+  </div>
+
+  <div class="section">
+    <h2>Color Palette</h2>
+    <div class="colors">
+      <div class="color-box color-sky">
+        <div class="color-label">Primary<br>#4A90E2</div>
+      </div>
+      <div class="color-box color-gray-light">
+        <div class="color-label">Secondary<br>#F2F2F2</div>
+      </div>
+      <div class="color-box color-yellow">
+        <div class="color-label">Accent<br>#FFC107</div>
+      </div>
+      <div class="color-box color-text">
+        <div class="color-label">Text<br>#333333</div>
+      </div>
+      <div class="color-box color-subtext">
+        <div class="color-label">Subtext<br>#777777</div>
+      </div>
+      <div class="color-box color-border">
+        <div class="color-label">Border<br>#E0E0E0</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Typography</h2>
+    <div class="typography-sample title">App Title - 24px Poppins Bold</div>
+    <div class="typography-sample subheading">Subheading - 18px Poppins SemiBold</div>
+    <div class="typography-sample body-text">Body Text - 16px Roboto Regular</div>
+    <div class="typography-sample button-text">Button Text - 14px Roboto Medium</div>
+    <div class="typography-sample small-text">Small Text - 12px Roboto Light (Hint/Subtext)</div>
+  </div>
+</body>
+</html>
